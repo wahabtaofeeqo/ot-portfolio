@@ -1,0 +1,21 @@
+{
+  "name": "ot-electrician",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "startdev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jquery": "^3.5.1",
+    "migrate-mongo": "^8.1.4",
+    "morgan": "~1.9.1",
+    "owl.carousel": "^2.3.4"
+  }
+}

@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title= title
+    
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/css/all.css')
+    link(rel='stylesheet', href='/assets/owl.carousel.min.css')
+    link(rel='stylesheet', href='/assets/owl.theme.default.min.css')
+
+
+    script(src="/jquery.min.js")
+    script(src='/javascripts/script.js')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js')
+    script(src='/owl.carousel.min.js')
+
+  body
+
+    include partials/navbar
+
+    block content
+
+    include partials/footer
